@@ -1,0 +1,22 @@
+sudo:  required
+services:
+        - docker
+
+before_install:
+        - docker build -t vpmaddur/react-test -f ./client/Dockerfile.dev ./client
+
+script:
+        - docker run vpmaddur/react-test npm test -- --coverage
+
+after_success:
+        - docker build -t vpmaddur/multi-client ./client
+        - docker build -t vpmaddur/multi-nginx ./ngnix
+        - docker build -t vpmaddur/multi-server ./server
+        - docker build -t vpmaddur/multi-worker ./worker
+        # Log in to docker CLI
+
+        - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
+        - docker push vpmaddur/multi-client
+        - docker push vpmaddur/multi-nginx
+        - docker push vpmaddur/multi-server
+        - docker push vpmaddur/multi-worker 
