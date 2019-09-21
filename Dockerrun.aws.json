@@ -28,7 +28,7 @@
 			"image": "vpmaddur/multi-nginx",
 			"hostname": "nginx",
 			"essential": true,
-			"postMappings": [
+			"portMappings": [
 				{
 					"hostPort": 80,
 					"containerPort": 80		
