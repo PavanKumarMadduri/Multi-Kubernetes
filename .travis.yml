@@ -15,8 +15,10 @@ after_success:
         - docker build -t vpmaddur/multi-worker ./worker
         # Log in to docker CLI
 
-       # - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
         - echo "$DOCKER_PASSWORD" | docker login docker.io -u "$DOCKER_ID" --password-stdin
+
+        # Push Images into Repository
+
         - docker push vpmaddur/multi-client
         - docker push vpmaddur/multi-nginx
         - docker push vpmaddur/multi-server
