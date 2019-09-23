@@ -6,7 +6,7 @@
 
 ## Why Kubernetes
 
-The problem with application scaling using AWS Elastic Beanstalk
+The problem with multi-conntainer application scaling using AWS Elastic Beanstalk
 
 ![Scaling Strategy for Elastic Beanstalk](https://github.com/PavanKumarMadduri/Multi-Kubernetes/blob/master/Scaling%20Strategy%20for%20EB.png?raw=true)
 
