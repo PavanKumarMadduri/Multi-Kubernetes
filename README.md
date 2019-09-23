@@ -1,11 +1,22 @@
-# Build, Test, and Deploy Docker applications with Kubernetes
+# Build, Test, and Deploy Docker applications with Kubernetes on GCP
 
-![Application Architecture](https://github.com/PavanKumarMadduri/Multi-Container/blob/master/Elastic%20Bean%20Deployment.png?raw=true)
+![Application Architecture](https://github.com/PavanKumarMadduri/Multi-Kubernetes/blob/master/Kubernetes%20Deployment%20on%20GCP.png?raw=true)
+
+## Why Kubernetes
+
+The problem with application scaling using AWS Elastic Beanstalk
+
+![Scaling Strategy for Elastic Beanstalk](https://github.com/PavanKumarMadduri/Multi-Kubernetes/blob/master/Scaling%20Strategy%20for%20EB.png?raw=true)
+
 
 ## CI/CD Pipelines 
 
-Implemented a full CI + CD workflow using Github, Travis CI, and Amazon Web Services, created a pipeline that automatically deploys code every time you push the latest changes to Github!
+Implemented a full CI + CD workflow using Github, Travis CI, and Google Kubernetes Engine (GKE), created a pipeline that automatically deploys code every time you push the latest changes to Github!
 
-## Multi-Container Deployments on AWS!
+## Deployments on Localhost using minikube
 
-After building the deployment pipeline, the code will be tested for both Single Container and Multi-Container deployments on AWS.  The multi-container application is constructed utilizing Node, React, Redis, and Postgres, and is deployed on AWS using Elastic Beanstalk and Elastic Container Service (AWS ECS).
+![Kubernetes Deployment on Localhost](https://github.com/PavanKumarMadduri/Multi-Kubernetes/blob/master/Kubernetes%20Deployment%20on%20Localhost.png?raw=true)
+
+## Deployments on GKE!
+
+After building the deployment pipeline, the code will be tested and deployed on GKE. The application is constructed utilizing Node, React, Redis, and Postgres, and is deployed on GCP using GKE
