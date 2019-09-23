@@ -2,7 +2,7 @@
 
 ## Application Architecture
 
-![Application Architecture](https://github.com/PavanKumarMadduri/Multi-Kubernetes/blob/master/Kubernetes%20Deployment%20on%20GCP.png?raw=true)
+![Application Architecture GKE](https://github.com/PavanKumarMadduri/Multi-Kubernetes/blob/master/Kubernetes%20Deployment%20on%20GCP.png?raw=true)
 
 ## Why Kubernetes
 
