@@ -1,9 +1,5 @@
 # Build, Test, and Deploy Docker applications with Kubernetes on GCP
 
-## Application Architecture GKE
-
-![Application Architecture](https://github.com/PavanKumarMadduri/Multi-Kubernetes/blob/master/Kubernetes%20Deployment%20on%20GCP.png?raw=true)
-
 ## Why Kubernetes
 
 The problem with multi-conntainer application scaling using AWS Elastic Beanstalk
@@ -19,6 +15,8 @@ Implemented a full CI + CD workflow using Github, Travis CI, and Google Kubernet
 
 ![Kubernetes Deployment on Localhost](https://github.com/PavanKumarMadduri/Multi-Kubernetes/blob/master/Kubernetes%20Deployment%20on%20Localhost.png?raw=true)
 
-## Deployments on GKE!
+## Deployments on GKE - Application Architecture GKE!
 
 After building the deployment pipeline, the code will be tested and deployed on GKE. The application is constructed utilizing Node, React, Redis, and Postgres, and is deployed on GCP using GKE
+
+![Application Architecture](https://github.com/PavanKumarMadduri/Multi-Kubernetes/blob/master/Kubernetes%20Deployment%20on%20GCP.png?raw=true)
