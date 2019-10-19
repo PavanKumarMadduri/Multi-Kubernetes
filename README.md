@@ -11,7 +11,7 @@ The problem with multi-conntainer application scaling using AWS Elastic Beanstal
 
 Implemented a full CI + CD workflow using Github, Travis CI, and Google Kubernetes Engine (GKE), created a pipeline that automatically deploys code every time you push the latest changes to Github!
 
-## Deployments on Localhost using minikube
+## Deployments on Localhost using minikube 
 
 ![Kubernetes Deployment on Localhost](https://github.com/PavanKumarMadduri/Multi-Kubernetes/blob/master/Kubernetes%20Deployment%20on%20Localhost.png?raw=true)
 
