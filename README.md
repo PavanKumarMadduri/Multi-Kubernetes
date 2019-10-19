@@ -7,7 +7,7 @@ The problem with multi-conntainer application scaling using AWS Elastic Beanstal
 ![Scaling Strategy for Elastic Beanstalk](https://github.com/PavanKumarMadduri/Multi-Kubernetes/blob/master/Scaling%20Strategy%20for%20EB.png?raw=true)
 
 
-## CI/CD Pipelines 
+## CI/CD Pipelines
 
 Implemented a full CI + CD workflow using Github, Travis CI, and Google Kubernetes Engine (GKE), created a pipeline that automatically deploys code every time you push the latest changes to Github!
 
